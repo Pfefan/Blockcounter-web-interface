@@ -1,9 +1,0 @@
-<div class="container">
-    <button class="btn btn-primary" (click)="sortBlocks('asc')">Sort Ascending</button>
-    <button class="btn btn-primary" (click)="sortBlocks('desc')">Sort Descending</button>
-    <ul class="list-group">
-      <li class="list-group-item" *ngFor="let block of blocks">
-        {{ block.name }}: {{ block.quantity }}
-      </li>
-    </ul>
-  </div>
