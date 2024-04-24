@@ -10,5 +10,5 @@ import { BlocklistComponent } from './blocklist/blocklist.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'blockcounter-web-interface';
+  
 }
